@@ -1,0 +1,17 @@
+
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true                                                                                            0.45s  
+
+   PASS  Tests\Feature\AuthFlowTest
+  ✓ guest cannot access home                                                                                     4.06s  
+  ✓ user can register and password is hashed                                                                     0.18s  
+  ✓ invalid credentials are rejected                                                                             1.40s  
+  ✓ login and logout                                                                                             0.05s  
+  ✓ duplicate email is rejected                                                                                  0.07s  
+
+   PASS  Tests\Feature\ExampleTest
+  ✓ root redirects to login                                                                                      0.06s  
+
+  Tests:    7 passed (22 assertions)
+  Duration: 10.36s
+

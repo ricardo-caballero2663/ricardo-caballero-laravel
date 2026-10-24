@@ -1,0 +1,24 @@
+
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true                                                                                            0.01s  
+
+   PASS  Tests\Feature\AuthFlowTest
+  ✓ guest cannot access home                                                                                     0.70s  
+  ✓ user can register and password is hashed                                                                     0.08s  
+  ✓ invalid credentials are rejected                                                                             0.31s  
+  ✓ login and logout                                                                                             0.08s  
+  ✓ duplicate email is rejected                                                                                  0.05s  
+
+   PASS  Tests\Feature\ExampleTest
+  ✓ root redirects to products                                                                                   0.07s  
+
+   PASS  Tests\Feature\ProductCrudTest
+  ✓ guest cannot access products                                                                                 0.08s  
+  ✓ full product lifecycle                                                                                       0.18s  
+  ✓ negative price and fractional stock are rejected                                                             0.07s  
+  ✓ zero values are allowed                                                                                      0.06s  
+  ✓ missing product returns 404                                                                                  0.06s  
+
+  Tests:    12 passed (45 assertions)
+  Duration: 2.02s
+

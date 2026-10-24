@@ -1,0 +1,16 @@
+
+  ANY       / ................................................................ Illuminate\Routing › RedirectController
+  GET|HEAD  home ......................................................................... home › HomeController@index
+  GET|HEAD  login ......................................................... login › Auth\LoginController@showLoginForm
+  POST      login ......................................................................... Auth\LoginController@login
+  POST      logout .............................................................. logout › Auth\LoginController@logout
+  GET|HEAD  password/confirm ....................... password.confirm › Auth\ConfirmPasswordController@showConfirmForm
+  POST      password/confirm .................................................. Auth\ConfirmPasswordController@confirm
+  GET|HEAD  register ......................................... register › Auth\RegisterController@showRegistrationForm
+  POST      register ................................................................ Auth\RegisterController@register
+  GET|HEAD  storage/{path} storage.local › vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvid…
+  PUT       storage/{path} storage.local.upload › vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServic…
+  GET|HEAD  up ........... vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php:219
+
+                                                                                                   Showing [12] routes
+

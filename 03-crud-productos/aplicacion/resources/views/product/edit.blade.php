@@ -1,0 +1,3 @@
+@extends('layouts.app')
+@section('title', 'Editar producto')
+@section('content')<section class="panel small-panel"><p class="eyebrow">Inventario / Editar producto</p><h1 style="font-size:36px">Editar producto</h1><p class="muted">Completa la descripción, el precio y las existencias.</p><form method="POST" action="{{ route('products.update',$product) }}">@csrf @method('PUT')@include('product.form')</form></section>@endsection

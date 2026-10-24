@@ -1,0 +1,4 @@
+@extends('layouts.app')
+@section('title', 'Mi panel')
+@section('content')
+<p class="eyebrow">Trabajo 01 / Área personal</p><h1>Hola, {{ Auth::user()->name }}.</h1><p class="lead-copy">Has ingresado a tu cuenta correctamente.</p><div class="alert-success" role="status">Sesión iniciada. Tu área personal está disponible.</div><section class="panel top-space"><h2>Datos de tu cuenta</h2><p class="muted">Esta información corresponde al usuario que inició sesión.</p><dl class="data-grid"><div><dt>Nombre</dt><dd>{{ Auth::user()->name }}</dd></div><div><dt>Correo electrónico</dt><dd>{{ Auth::user()->email }}</dd></div><div><dt>Fecha de registro</dt><dd>{{ Auth::user()->created_at->timezone('America/Panama')->format('d/m/Y') }}</dd></div><div><dt>Estado</dt><dd>Sesión activa</dd></div></dl></section>@endsection

@@ -1,0 +1,21 @@
++-----------------------+
+| Tables_in_lab_crud    |
++-----------------------+
+| cache                 |
+| cache_locks           |
+| failed_jobs           |
+| job_batches           |
+| jobs                  |
+| migrations            |
+| password_reset_tokens |
+| products              |
+| sessions              |
+| users                 |
++-----------------------+
++----+-------------------+-------+-------+
+| id | description       | price | stock |
++----+-------------------+-------+-------+
+|  1 | Teclado USB       | 19.95 |    12 |
+|  2 | Mouse inal�mbrico | 12.50 |    25 |
+|  3 | Memoria USB 64 GB |  8.75 |    30 |
++----+-------------------+-------+-------+

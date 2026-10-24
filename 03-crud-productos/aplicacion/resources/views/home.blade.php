@@ -1,0 +1,2 @@
+@extends('layouts.app')
+@section('content')<p class="eyebrow">Trabajo 03 / Panel</p><h1>Tu inventario, organizado.</h1><p class="lead-copy">Consulta y administra los productos registrados.</p><a class="primary" href="{{ route('products.index') }}">Ir a productos</a>@endsection
