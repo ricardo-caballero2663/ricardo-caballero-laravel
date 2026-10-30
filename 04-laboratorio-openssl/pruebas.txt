@@ -1,0 +1,12 @@
+OK 1 - RSA: firma válida
+OK 2 - RSA: rechaza mensaje alterado
+OK 3 - Genera certificado X.509
+OK 4 - Certificado corresponde a clave privada
+OK 5 - FirmaMensaje: certificado valida firma
+OK 6 - FirmaMensaje: rechaza alteración
+OK 7 - AES-CBC: recupera texto
+OK 8 - AES-GCM: rechaza alteración
+OK 9 - Sodium: recupera texto
+OK 10 - Sodium: rechaza alteración
+OK 11 - Rechaza mensaje vacío
+TOTAL: 11 pruebas correctas
