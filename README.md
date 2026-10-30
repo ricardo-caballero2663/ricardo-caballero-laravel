@@ -28,6 +28,7 @@ Los archivos `.env`, dependencias, sesiones y registros internos no se incluyen.
 ## Seguridad con OpenSSL y Sodium
 
 4. [Laboratorio ejecutable](04-laboratorio-openssl/README.md) — [PDF](04-laboratorio-openssl/Trabajo_04_Laboratorio_OpenSSL.pdf).
-5. [Informe técnico](05-informe-openssl/README.md) — [PDF](05-informe-openssl/Trabajo_05_Informe_OpenSSL.pdf).
+5. [Informe técnico](05-informe-openssl/README.md) — [PDF](05-informe-openssl/Informe%20de%20OpenSSL%20y%20Sodium.pdf).
 
 Requieren PHP con OpenSSL y Sodium, sin base de datos. La aplicación está en 04-laboratorio-openssl/aplicacion; el informe incluye una copia en codigo-openssl.zip. Ambos incluyen capturas reales, paso a paso y resultados de 11 pruebas.
+

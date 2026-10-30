@@ -1,4 +1,4 @@
-# Informe técnico OpenSSL y Sodium
+# Informe de OpenSSL y Sodium
 
 Ricardo Caballero · Grupo 1S3122 · Desarrollo Web · Ing. Irina Fong
 
@@ -6,7 +6,7 @@ https://github.com/ricardo-caballero2663/ricardo-caballero-laravel
 
 ## Entregable
 
-[Trabajo_05_Informe_OpenSSL.pdf](Trabajo_05_Informe_OpenSSL.pdf)
+[Informe de OpenSSL y Sodium.pdf](<Informe de OpenSSL y Sodium.pdf>)
 
 ## Paso a paso
 
